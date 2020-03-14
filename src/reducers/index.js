@@ -1,5 +1,6 @@
 import { combineReducers } from 'redux';
+import postReducer from './postReducer';
 
 export const allReducers = combineReducers({
-  replaceMe: () => 1234
+  postReducer
 });

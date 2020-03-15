@@ -2,5 +2,5 @@ import { combineReducers } from 'redux';
 import postReducer from './postReducer';
 
 export const allReducers = combineReducers({
-  postReducer
+  posts: postReducer
 });
